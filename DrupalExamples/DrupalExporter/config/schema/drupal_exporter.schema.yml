@@ -1,0 +1,19 @@
+drupal_exporter.export.*:
+  type: config_entity
+  label: 'Export Config'
+  mapping:
+    id:
+      type: string
+      label: ID
+    export_plugin:
+      type: ignore
+      label: export_plugin
+    source:
+      type: ignore
+      label: Source
+    process:
+      type: ignore
+      label: Process
+    loader:
+      type: ignore
+      label: Loader

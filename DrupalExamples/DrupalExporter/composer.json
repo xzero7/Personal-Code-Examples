@@ -1,0 +1,17 @@
+{
+  "name": "a.e.home.drupal-learning/drupal-exporter",
+  "type": "drupal-custom-module",
+  "description": "Test Sample Module for Exporting Drupal Entities to difference sources.",
+  "keywords": ["Drupal"],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Alvaro E. Home",
+      "email": "xzero7@gmail.com"
+    }
+  ],
+  "require": {
+    "cocur/slugify": "^3.0"
+  }
+}

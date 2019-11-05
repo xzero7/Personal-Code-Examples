@@ -1,0 +1,5 @@
+content_es_id_mappings:
+  article: 'nid'
+  another_content_type: 'not_nid_field'
+cron:
+  interval: 86400

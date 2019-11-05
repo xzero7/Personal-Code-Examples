@@ -1,0 +1,14 @@
+services:
+  wal_export_subscriber:
+    class: Drupal\wal_export\Services\WalExportSubscriber
+    arguments: ['@messenger']
+    tags:
+      - {name: event_subscriber}
+  wal_export.commands:
+    class: \Drupal\wal_export\Commands\WalExportCommands
+    tags:
+      - { name: drush.command }
+  plugin.manager.wal_export.export:
+    class: Drupal\wal_export\Plugin\ExportPluginManager
+    parent: default_plugin_manager
+

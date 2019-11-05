@@ -1,0 +1,8 @@
+name: drupal_exporter
+type: module
+description: Test Sample Module for Exporting Drupal Entities to difference sources.
+core: 8.x
+package: SampleWorkSpace
+dependencies:
+ - drupal:hook_event_dispatcher
+ - drupal:elasticsearch_connector
