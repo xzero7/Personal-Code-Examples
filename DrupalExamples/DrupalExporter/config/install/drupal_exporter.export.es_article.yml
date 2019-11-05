@@ -1,0 +1,7 @@
+id: es_article
+export_plugin: es_article
+process:
+  id: nid
+loader:
+  index_config:
+    name: elastic-search-index-name

@@ -1,0 +1,5 @@
+name: google_analytics_wrapper
+type: module
+description: Sample Module to Wrap Google Analytic's Client
+package: SampleWorkSpace
+core: 8.x
